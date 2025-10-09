@@ -56,3 +56,4 @@ __pycache__/
 *.tmp
 *.bak
 *.orig
+".env" 
