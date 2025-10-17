@@ -10,7 +10,7 @@ from langchain.schema import HumanMessage
 
 # Initialize Gemini LLM
 llm = ChatGoogleGenerativeAI(
-    model="gemini-2.5-flash-lite",
+    model="gemini-2.5-flash",
     api_key=os.getenv("GOOGLE_API_KEY"),
 )
 
@@ -30,19 +30,20 @@ def transcribe_audio(audio_path: str) -> str:
         {
             "type": "text",
             "text": (
-                "Transcribe the following audio into text.\n"
-                "⚠️ STRICT RULES:\n"
-                "1. Output only the exact spoken words, as heard.\n"
-                "2. Do NOT summarize, rephrase, or interpret.\n"
-                "3. Preserve the original meaning and word choice.\n"
-                "4. Use only minimal punctuation where natural (commas, periods).\n"
-                "5. Do NOT add labels, explanations, or prefixes (e.g., 'Transcript:').\n"
-                "6. If the audio is unclear, noisy, or unintelligible, respond only with: 'Audio is not clear.'\n"
+                "Please transcribe the following audio into text.\n"
+                "Guidelines:\n"
+                "1. Write down exactly what is spoken as accurately as possible.\n"
+                "2. Avoid summarizing or changing the meaning.\n"
+                "3. Keep the original wording and tone.\n"
+                "4. Use natural punctuation for readability (commas, periods, etc.).\n"
+                "5. Do not include any extra notes, labels, or introductions.\n"
+                "6. If the audio is mostly unclear or unintelligible, respond with: 'Audio is not clear.'\n"
             ),
         },
         {"type": "media", "mime_type": "audio/mpeg", "data": audio_bytes},
     ]
 )
+
 
 
 
@@ -55,5 +56,8 @@ def transcribe_audio(audio_path: str) -> str:
 
 
 if __name__ == "__main__":
-    test_file = r"D:\MindScribe\backends\downloads\WHILE vs DURING - English Grammar Difference Explained ｜ Learn English with Ananya.mp3"
+    # test_file = r"D:\MindScribe\backends\downloads\WHILE vs DURING - English Grammar Difference Explained ｜ Learn English with Ananya.mp3"
+    # test_file = r"D:\Programming\Python in Sublime\LLM Works\LangGraph Basic\Graphs\Youtube Rag Chatbot\downloaded_audio\A.I. Teaches Programming.mp3"
+    # test_file = r"D:\Programming\Python in Sublime\LLM Works\LangGraph Basic\Graphs\Youtube Rag Chatbot\downloaded_audio\OpenAI's ChatGPT creates an operating system.mp3"
+    test_file = r" D:\Programming\Python in Sublime\LLM Works\LangGraph Basic\Graphs\Youtube Rag Chatbot\downloaded_audio\A.I. Teaches Programming.mp3"
     print("Transcript:\n", transcribe_audio(test_file))

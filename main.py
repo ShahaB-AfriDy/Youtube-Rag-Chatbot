@@ -1,4 +1,4 @@
-from utils.extract_audio import extract_audio
+from utils.audio import extract_audio
 from pipelines.translation import translate_text
 from pipelines.transcription import transcribe_audio
 

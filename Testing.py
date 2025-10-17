@@ -1,3 +1,8 @@
+import sys
+import os
+sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+
+
 from langchain_google_genai import ChatGoogleGenerativeAI
 from langchain_core.runnables import RunnableConfig
 from langchain_core.messages import AnyMessage
@@ -109,4 +114,5 @@ if __name__ =="__main__":
         print("printing")
         for message in response_state["messages"][-2:]:
             message.pretty_print()
+
 
