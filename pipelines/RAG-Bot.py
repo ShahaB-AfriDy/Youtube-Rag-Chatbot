@@ -158,15 +158,11 @@ def Retrieval_Node(state: RAGState, store: BaseStore, config: RunnableConfig):
 
     query = state.messages[-1].content
     result = store.search(namespace, query=query, limit=3)
-
     # Wrap text chunks in Document objects
     retrieved = [
-        Document(page_content=r.value["text"], metadata={"url": state.youtube_link})
-        for r in result
-    ] if result else []
+        Document(page_content=r.value["text"], metadata={"url": state.youtube_link}) for r in result] if result else []
 
     state.retrieved_docs = retrieved
-    print(f"Retrieved {len(retrieved)} relevant chunks for query: {query}")
     return state
 
 
@@ -202,7 +198,6 @@ graph_builder = StateGraph(RAGState)
 
 graph_builder.add_node(node="Check_URL_Node", action= lambda state:state)
 # graph_builder.add_node(node="No_URL_Node", action= lambda state:state)    
-
 # graph_builder.add_node("Check_URL_Node", Check_URL_Node)
 graph_builder.add_node("No_URL_Node", No_URL_Node)
         # <-- move here (before it's referenced)
@@ -238,19 +233,13 @@ app = graph_builder.compile(store=store)
 # URL = "https://www.youtube.com/shorts/x2VefKXyLko"
 # URL = "https://www.youtube.com/shorts/x2VefKXyLko"
 # URL = "https://www.youtube.com/shorts/FH1AMAKgdn4"
-# URL = "https://www.youtube.com/watch?v=wjZofJX0v4M"
+URL = "https://www.youtube.com/watch?v=wjZofJX0v4M"
 # URL = "https://www.youtube.com/shorts/je4Q1vBCpok"
-URL = "https://www.youtube.com/shorts/XJ1yWRwZ6JQ"
+# URL = "https://www.youtube.com/shorts/XJ1yWRwZ6JQ"
 
-# state = RAGState(
-#     messages=[HumanMessage(content="What telling the Presenter in Video!")],
-#     youtube_link=URL,
-#     retrieved_docs=[]  # MUST be empty list, not containing any strings
-# )
-# msg = "Context Size: The network can only process a fixed number of vectors at a time"
-# "Vector Association: Each token is associated with a vector (a list of numbers) meant to encode its meaning"
 
-msg = "Hi i need help in maths"
+msg = "Can you make questions about the things which discussed in the video!"
+msg = "bullets points of the video!"
 state = RAGState(
     messages=[HumanMessage(content=msg)],
     youtube_link=URL,
@@ -266,9 +255,5 @@ result = app.invoke(state, config=config)
 print(result["final_answer"])
 
 
-
-
-
 # close_connections()
 
-# "https://www.youtube.com/shorts/5ZWub9UEJiE"
