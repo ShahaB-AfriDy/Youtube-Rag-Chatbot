@@ -231,7 +231,7 @@ graph_builder.set_finish_point("Chat_Node")
 app = graph_builder.compile(store=store)
 
 
-if __name__ == "_main__":
+if __name__ == "__main__":
     # URL = "https://www.youtube.com/shorts/6wHscF7GE6A"
     # URL = "https://www.youtube.com/shorts/x2VefKXyLko"
     # URL = "https://www.youtube.com/shorts/x2VefKXyLko"
@@ -255,7 +255,7 @@ if __name__ == "_main__":
 
     result = app.invoke(state, config=config)
     print(result["final_answer"])
-
+    print("now".center(100,"*"))
 
     # close_connections()
 

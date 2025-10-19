@@ -1,6 +1,6 @@
 from langchain_core.messages import HumanMessage
 from pipelines.RAG_Bot import RAGState,app
-if __name__ == "_main__":
+if __name__ == "__main__":
     # URL = "https://www.youtube.com/shorts/6wHscF7GE6A"
     # URL = "https://www.youtube.com/shorts/x2VefKXyLko"
     # URL = "https://www.youtube.com/shorts/x2VefKXyLko"
