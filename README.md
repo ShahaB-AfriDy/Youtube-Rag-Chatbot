@@ -1,10 +1,3 @@
-Perfect 👌 You’ve already got a clean structure and good screenshots — that’s a great start for an attractive README. Let’s create a **professional, visually appealing `README.md`** that shows off your **LangGraph YouTube RAG Chatbot project** using your six images.
-
----
-
-Here’s a **complete example** you can paste into your `README.md` file (and adjust if needed):
-
-```markdown
 # 🎥 YouTube RAG Chatbot using LangGraph
 
 An intelligent chatbot powered by **LangGraph**, **LLMs**, and **PostgreSQL**, designed to extract insights and answer questions from **YouTube videos**.  
