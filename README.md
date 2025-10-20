@@ -1,8 +1,14 @@
-Perfect 👌 You’ve already got a clean structure and good screenshots — that’s a great start for an attractive README. Let’s create a **professional, visually appealing `README.md`** that shows off your **LangGraph YouTube RAG Chatbot project** using your six images.
+Got it ✅ — you want your **same README layout** (with image previews working),
+but updated to include:
+
+* `Backend → FastAPI` and `Frontend → Next.js`
+* Your **LinkedIn** and **email**
+* ❌ Remove GitHub author section
+
+Here’s the cleaned and updated version 👇
+(copy–paste this into your `README.md` exactly)
 
 ---
-
-Here’s a **complete example** you can paste into your `README.md` file (and adjust if needed):
 
 ```markdown
 # 🎥 YouTube RAG Chatbot using LangGraph
@@ -19,7 +25,8 @@ Simply paste a video URL, and chat with your AI assistant — powered by **retri
 - 💾 **Persistent conversation memory** via PostgreSQL store  
 - 🗂️ **Thread-based chat management**  
 - 🗣️ **Real-time chat interface** with context retention  
-- 🎨 **Modern frontend design** for smooth user experience  
+- 🎨 **Modern frontend design** built with **Next.js**  
+- ⚙️ **Backend API** developed using **FastAPI**
 
 ---
 
@@ -29,9 +36,9 @@ The chatbot uses a **LangGraph workflow** connecting:
 - A **Retriever Node** → Fetches transcripts from YouTube  
 - A **Chat Node** → Handles conversation & context  
 - A **Store Node** → Saves threads and responses to PostgreSQL  
-- **Frontend + Backend** → Seamless chat interface
+- **Frontend (Next.js)** + **Backend (FastAPI)** → Seamless chat interface
 
-![Graph Flow](Images/Graph-Flow.png)
+![Graph Flow](./Images/Graph-Flow.png)
 
 ---
 
@@ -40,35 +47,35 @@ The chatbot uses a **LangGraph workflow** connecting:
 ### 🏠 Home Page
 A simple and elegant landing page to begin chatting.
 
-![Home Page](Images/Home.png)
+![Home Page](./Images/Home.png)
 
 ---
 
 ### 🔐 Login Page
 Secure access and user management.
 
-![Login](Images/Login.png)
+![Login](./Images/Login.png)
 
 ---
 
 ### 🔗 Add YouTube URL
 Paste any YouTube video link to load and process content.
 
-![Add URL](Images/Add-URL.png)
+![Add URL](./Images/Add-URL.png)
 
 ---
 
 ### 💬 Chat Interface
 Interactive chatbot with message streaming and context awareness.
 
-![Chat Interface](Images/Chat-Interface.png)
+![Chat Interface](./Images/Chat-Interface.png)
 
 ---
 
 ### 🕓 Chat History
 View previous chat sessions and revisit past insights.
 
-![Chat History](Images/Chat-History.png)
+![Chat History](./Images/Chat-History.png)
 
 ---
 
@@ -93,8 +100,8 @@ D:.
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/<your-username>/<repo-name>.git
-cd <repo-name>
+git clone https://github.com/ShahaB-AfriDy/Youtube-Rag-Chatbot.git
+cd Youtube-Rag-Chatbot
 ````
 
 ### 2. Create a Virtual Environment
@@ -131,7 +138,7 @@ python main.py
 * [PostgreSQL](https://www.postgresql.org/)
 * [YouTubeDL](https://github.com/yt-dlp/yt-dlp)
 * [FastAPI](https://fastapi.tiangolo.com/)
-* [React (Frontend)](https://react.dev/)
+* [Next.js](https://nextjs.org/)
 
 ---
 
@@ -142,28 +149,28 @@ This project demonstrates:
 * **LLM integration** with structured graph-based flow
 * **Persistent memory** for multi-session chats
 * **Real-world RAG application** on video transcripts
-* **Clean, production-ready code structure**
+* **Clean, production-ready architecture with FastAPI + Next.js**
 
 ---
 
 ## 📸 Screenshots Summary
 
-| Section        | Screenshot                                   |
-| -------------- | -------------------------------------------- |
-| Home           | ![Home](Images/Home.png)                     |
-| Login          | ![Login](Images/Login.png)                   |
-| Add URL        | ![Add URL](Images/Add-URL.png)               |
-| Chat Interface | ![Chat Interface](Images/Chat-Interface.png) |
-| Chat History   | ![Chat History](Images/Chat-History.png)     |
-| Graph Flow     | ![Graph Flow](Images/Graph-Flow.png)         |
+| Section        | Screenshot                                     |
+| -------------- | ---------------------------------------------- |
+| Home           | ![Home](./Images/Home.png)                     |
+| Login          | ![Login](./Images/Login.png)                   |
+| Add URL        | ![Add URL](./Images/Add-URL.png)               |
+| Chat Interface | ![Chat Interface](./Images/Chat-Interface.png) |
+| Chat History   | ![Chat History](./Images/Chat-History.png)     |
+| Graph Flow     | ![Graph Flow](./Images/Graph-Flow.png)         |
 
 ---
 
-## 🧑‍💻 Author
+## 👨‍💻 Author
 
 **Muhammad Shahab Afridi**
-📧 [[YourEmail@example.com](mailto:YourEmail@example.com)]
-💼 [LinkedIn](https://linkedin.com/in/yourprofile) | 🐙 [GitHub](https://github.com/yourusername)
+📧 [shahabafridy@gmail.com](mailto:shahabafridy@gmail.com)
+💼 [LinkedIn](https://www.linkedin.com/in/shahab-afridy-9ba965286/)
 
 ---
 
@@ -173,5 +180,11 @@ This project demonstrates:
 
 ---
 
-Would you like me to make the README **more “GitHub-style fancy”** (e.g., badges for Python, LangGraph, PostgreSQL, etc.) or keep it **clean and minimal like above**?
+### ✅ Notes
+
+- Use `./Images/...` instead of `Images/...` → ensures GitHub loads all images.  
+- Keep filenames **exactly the same** (`Home.png`, not `home.PNG`).  
+- Make sure the folder is committed (`git add Images/` → `git push`).
+
+Would you like me to make this version include **language badges** (Python, FastAPI, Next.js, PostgreSQL) at the top too? It makes the README look more professional.
 ```
