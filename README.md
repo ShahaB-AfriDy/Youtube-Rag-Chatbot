@@ -1,14 +1,3 @@
-Got it ✅ — you want your **same README layout** (with image previews working),
-but updated to include:
-
-* `Backend → FastAPI` and `Frontend → Next.js`
-* Your **LinkedIn** and **email**
-* ❌ Remove GitHub author section
-
-Here’s the cleaned and updated version 👇
-(copy–paste this into your `README.md` exactly)
-
----
 
 ```markdown
 # 🎥 YouTube RAG Chatbot using LangGraph
@@ -38,7 +27,7 @@ The chatbot uses a **LangGraph workflow** connecting:
 - A **Store Node** → Saves threads and responses to PostgreSQL  
 - **Frontend (Next.js)** + **Backend (FastAPI)** → Seamless chat interface
 
-![Graph Flow](./Images/Graph-Flow.png)
+![Graph Flow](Images/Graph-Flow.png)
 
 ---
 
@@ -47,35 +36,35 @@ The chatbot uses a **LangGraph workflow** connecting:
 ### 🏠 Home Page
 A simple and elegant landing page to begin chatting.
 
-![Home Page](./Images/Home.png)
+![Home Page](Images/Home.png)
 
 ---
 
 ### 🔐 Login Page
 Secure access and user management.
 
-![Login](./Images/Login.png)
+![Login Page](Images/Login.png)
 
 ---
 
 ### 🔗 Add YouTube URL
 Paste any YouTube video link to load and process content.
 
-![Add URL](./Images/Add-URL.png)
+![Add URL](Images/Add-URL.png)
 
 ---
 
 ### 💬 Chat Interface
 Interactive chatbot with message streaming and context awareness.
 
-![Chat Interface](./Images/Chat-Interface.png)
+![Chat History](Images/Chat-History.png)
 
 ---
 
 ### 🕓 Chat History
 View previous chat sessions and revisit past insights.
+![Chat Interface](Images/Chat-Interface.png)
 
-![Chat History](./Images/Chat-History.png)
 
 ---
 
