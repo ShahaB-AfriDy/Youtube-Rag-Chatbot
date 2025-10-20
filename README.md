@@ -5,7 +5,6 @@ This application enables users to extract meaningful insights and engage in inte
 
 Simply provide a YouTube video URL  the system retrieves, processes, and analyzes its transcript, allowing seamless interaction through a natural language interface powered by **Large Language Models (LLMs)**.
 
-
 ---
 
 ##  Features
