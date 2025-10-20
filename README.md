@@ -43,15 +43,15 @@ D:.
 
 ````
 
----
+````
 
 ## ⚙️ Setup Instructions
-
 ### 1. Clone the Repository
+
 ```bash
 git clone https://github.com/ShahaB-AfriDy/Youtube-Rag-Chatbot.git
 cd Youtube-Rag-Chatbot
-````
+```
 
 ### 2. Create a Virtual Environment
 
@@ -80,7 +80,7 @@ python main.py
 
 ---
 
-## 🧠 Powered By
+## Powered By
 
 * [LangGraph](https://github.com/langchain-ai/langgraph)
 * [LangChain](https://github.com/langchain-ai/langchain)
@@ -91,7 +91,7 @@ python main.py
 
 ---
 
-## 🌟 Showcase Summary
+##  Showcase Summary
 
 This project demonstrates:
 
@@ -117,7 +117,7 @@ This project demonstrates:
 
 ## 👨‍💻 Author
 
-**Muhammad Shahab Afridi**
+**Shahab Afridi**
 📧 [shahabafridy@gmail.com](mailto:shahabafridy@gmail.com)
 💼 [LinkedIn](https://www.linkedin.com/in/shahab-afridy-9ba965286/)
 
