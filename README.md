@@ -3,20 +3,20 @@
 An advanced **Retrieval-Augmented Generation (RAG)** chatbot built using **LangGraph**, **FastAPI**, and **PostgreSQL**.  
 This application enables users to extract meaningful insights and engage in intelligent conversations based on the content of **YouTube videos**.  
 
-Simply provide a YouTube video URL — the system retrieves, processes, and analyzes its transcript, allowing seamless interaction through a natural language interface powered by **Large Language Models (LLMs)**.
+Simply provide a YouTube video URL  the system retrieves, processes, and analyzes its transcript, allowing seamless interaction through a natural language interface powered by **Large Language Models (LLMs)**.
 
 
 ---
 
 ##  Features
 
-- 🧠 **LangGraph-powered pipeline** for modular chat workflows  
-- 🔍 **Automatic YouTube transcript retrieval**  
-- 💾 **Persistent conversation memory** via PostgreSQL store  
-- 🗂️ **Thread-based chat management**  
-- 🗣️ **Real-time chat interface** with context retention  
-- 🎨 **Modern frontend design** built with **Next.js**  
-- ⚙️ **Backend API** developed using **FastAPI**
+- **LangGraph-powered pipeline** for modular chat workflows  
+- **Automatic YouTube transcript retrieval**  
+- **Persistent conversation memory** via PostgreSQL store  
+- **Thread-based chat management**  
+- **Real-time chat interface** with context retention  
+- **Modern frontend design** built with **Next.js**  
+- **Backend API** developed using **FastAPI**
 
 ---
 
