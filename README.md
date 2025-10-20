@@ -32,7 +32,6 @@ The chatbot uses a **LangGraph workflow** connecting:
 ## 🧱 Folder Structure
 
 ```
-
 D:.
 ├───backend
 │   ├───pipelines
@@ -70,7 +69,7 @@ pip install -r requirements.txt
 ### 4. Setup PostgreSQL
 
 ```sql
-CREATE DATABASE youtube_rag;
+CREATE DATABASE youtubetranscriptiondb;
 ```
 
 ### 5. Run the App
@@ -123,18 +122,3 @@ This project demonstrates:
 💼 [LinkedIn](https://www.linkedin.com/in/shahab-afridy-9ba965286/)
 
 ---
-
-⭐ *If you like this project, don’t forget to star the repo!*
-
-```
-
----
-
-### ✅ Notes
-
-- Use `./Images/...` instead of `Images/...` → ensures GitHub loads all images.  
-- Keep filenames **exactly the same** (`Home.png`, not `home.PNG`).  
-- Make sure the folder is committed (`git add Images/` → `git push`).
-
-Would you like me to make this version include **language badges** (Python, FastAPI, Next.js, PostgreSQL) at the top too? It makes the README look more professional.
-```
