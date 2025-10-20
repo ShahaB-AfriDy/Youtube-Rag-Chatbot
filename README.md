@@ -1,35 +1,25 @@
-Got it 👍 — you want to **keep your original README layout** (with individual image previews for each section, not in a table),
-but update it slightly to mention that your **API is built with FastAPI** and your **frontend uses Next.js**, plus keep it clean and professional.
-
-Here’s your **final refined version** (slightly trimmed, badges kept minimal, individual previews intact, and accurate tech stack):
+Perfect 👌 You’ve already got a clean structure and good screenshots — that’s a great start for an attractive README. Let’s create a **professional, visually appealing `README.md`** that shows off your **LangGraph YouTube RAG Chatbot project** using your six images.
 
 ---
+
+Here’s a **complete example** you can paste into your `README.md` file (and adjust if needed):
 
 ```markdown
 # 🎥 YouTube RAG Chatbot using LangGraph
 
-[![Python](https://img.shields.io/badge/Python-3.10+-blue.svg?logo=python&logoColor=white)](https://www.python.org/)
-[![LangGraph](https://img.shields.io/badge/LangGraph-%F0%9F%A4%96-lightblue.svg)](https://github.com/langchain-ai/langgraph)
-[![PostgreSQL](https://img.shields.io/badge/PostgreSQL-DB-blue.svg?logo=postgresql&logoColor=white)](https://www.postgresql.org/)
-[![FastAPI](https://img.shields.io/badge/API-FastAPI-success.svg?logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com/)
-[![Next.js](https://img.shields.io/badge/Frontend-Next.js-black.svg?logo=nextdotjs&logoColor=white)](https://nextjs.org/)
-
----
-
 An intelligent chatbot powered by **LangGraph**, **LLMs**, and **PostgreSQL**, designed to extract insights and answer questions from **YouTube videos**.  
-Simply paste a video URL and chat with your AI assistant — powered by **retrieval-augmented generation (RAG)**.
+Simply paste a video URL, and chat with your AI assistant — powered by **retrieval-augmented generation (RAG)**.
 
 ---
 
 ## 🚀 Features
 
-- 🧠 **LangGraph-powered pipeline** for modular workflows  
+- 🧠 **LangGraph-powered pipeline** for modular chat workflows  
 - 🔍 **Automatic YouTube transcript retrieval**  
-- 💾 **Persistent conversation memory** via PostgreSQL  
+- 💾 **Persistent conversation memory** via PostgreSQL store  
 - 🗂️ **Thread-based chat management**  
-- 💬 **Real-time context-aware chat**  
-- ⚙️ **Backend built with FastAPI**  
-- 🌐 **Frontend built with Next.js (React)**  
+- 🗣️ **Real-time chat interface** with context retention  
+- 🎨 **Modern frontend design** for smooth user experience  
 
 ---
 
@@ -39,7 +29,7 @@ The chatbot uses a **LangGraph workflow** connecting:
 - A **Retriever Node** → Fetches transcripts from YouTube  
 - A **Chat Node** → Handles conversation & context  
 - A **Store Node** → Saves threads and responses to PostgreSQL  
-- **Frontend (Next.js)** and **Backend (FastAPI)** for smooth interaction  
+- **Frontend + Backend** → Seamless chat interface
 
 ![Graph Flow](Images/Graph-Flow.png)
 
@@ -62,7 +52,7 @@ Secure access and user management.
 ---
 
 ### 🔗 Add YouTube URL
-Paste any YouTube video link to load and process its transcript.
+Paste any YouTube video link to load and process content.
 
 ![Add URL](Images/Add-URL.png)
 
@@ -103,8 +93,8 @@ D:.
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/ShahaB-AfriDy/Youtube-Rag-Chatbot.git
-cd Youtube-Rag-Chatbot
+git clone https://github.com/<your-username>/<repo-name>.git
+cd <repo-name>
 ````
 
 ### 2. Create a Virtual Environment
@@ -141,38 +131,47 @@ python main.py
 * [PostgreSQL](https://www.postgresql.org/)
 * [YouTubeDL](https://github.com/yt-dlp/yt-dlp)
 * [FastAPI](https://fastapi.tiangolo.com/)
-* [Next.js (React)](https://nextjs.org/)
+* [React (Frontend)](https://react.dev/)
 
 ---
 
-## 🌟 Highlights
+## 🌟 Showcase Summary
 
-* **LLM integration** via structured LangGraph flow
+This project demonstrates:
+
+* **LLM integration** with structured graph-based flow
 * **Persistent memory** for multi-session chats
-* **RAG applied to YouTube transcripts**
-* **Production-ready architecture** using FastAPI + Next.js
+* **Real-world RAG application** on video transcripts
+* **Clean, production-ready code structure**
 
 ---
 
-## 👨‍💻 Author
+## 📸 Screenshots Summary
+
+| Section        | Screenshot                                   |
+| -------------- | -------------------------------------------- |
+| Home           | ![Home](Images/Home.png)                     |
+| Login          | ![Login](Images/Login.png)                   |
+| Add URL        | ![Add URL](Images/Add-URL.png)               |
+| Chat Interface | ![Chat Interface](Images/Chat-Interface.png) |
+| Chat History   | ![Chat History](Images/Chat-History.png)     |
+| Graph Flow     | ![Graph Flow](Images/Graph-Flow.png)         |
+
+---
+
+## 🧑‍💻 Author
 
 **Muhammad Shahab Afridi**
-📦 [GitHub: ShahaB-AfriDy](https://github.com/ShahaB-AfriDy)
-🔗 [LinkedIn: Shahab Afridy](https://www.linkedin.com/in/shahab-afridy-9ba965286/)
+📧 [[YourEmail@example.com](mailto:YourEmail@example.com)]
+💼 [LinkedIn](https://linkedin.com/in/yourprofile) | 🐙 [GitHub](https://github.com/yourusername)
 
 ---
 
-⭐ *If you like this project, please give it a star!*
+⭐ *If you like this project, don’t forget to star the repo!*
 
 ```
 
 ---
 
-✅ **Changes made for accuracy & clarity:**
-- Kept your **original image-based layout** (for each page preview).  
-- Added proper credit: **Backend → FastAPI**, **Frontend → Next.js (React)**.  
-- Maintained all structure, just simplified text a bit.  
-- Added clean badges at the top (lightweight, professional).  
-
-Would you like me to also create a **short GitHub description and tags** (the one-line text that appears under your repo name on GitHub)?
+Would you like me to make the README **more “GitHub-style fancy”** (e.g., badges for Python, LangGraph, PostgreSQL, etc.) or keep it **clean and minimal like above**?
 ```
