@@ -30,7 +30,7 @@ The chatbot uses a **LangGraph workflow** connecting:
 
 ---
 
-## 🖥️ Application Preview
+##  Application Preview
 
 ###  Home Page
 A simple and elegant landing page to begin chatting.
@@ -39,7 +39,7 @@ A simple and elegant landing page to begin chatting.
 
 ---
 
-## 🧱 Folder Structure
+##  Folder Structure
 
 ```
 YouTube-Rag-Bot:.
@@ -110,7 +110,7 @@ This project demonstrates:
 
 ---
 
-## 📸 Screenshots Summary
+##  Screenshots Summary
 
 | Section        | Screenshot                                     |
 | -------------- | ---------------------------------------------- |
@@ -123,7 +123,7 @@ This project demonstrates:
 
 ---
 
-## 👨‍💻 Author
+## Author
 
 **Shahab Afridi**
 📧 [shahabafridy@gmail.com](mailto:shahabafridy@gmail.com)
