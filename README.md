@@ -1,4 +1,4 @@
-# 🎥 YouTube RAG Chatbot with LangGraph
+# YouTube RAG Chatbot with LangGraph
 
 An advanced **Retrieval-Augmented Generation (RAG)** chatbot built using **LangGraph**, **FastAPI**, and **PostgreSQL**.  
 This application enables users to extract meaningful insights and engage in intelligent conversations based on the content of **YouTube videos**.  
