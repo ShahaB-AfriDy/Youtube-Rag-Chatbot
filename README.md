@@ -27,7 +27,8 @@ The chatbot uses a **LangGraph workflow** connecting:
 - A **Store Node** → Saves threads and responses to PostgreSQL  
 - **Frontend (Next.js)** + **Backend (FastAPI)** → Seamless chat interface
 
-![Graph Flow](Images/Graph-Flow.png)
+
+![Graph Flow](./Images/Graph-Flow.png)
 
 ---
 
@@ -36,7 +37,7 @@ The chatbot uses a **LangGraph workflow** connecting:
 ### 🏠 Home Page
 A simple and elegant landing page to begin chatting.
 
-![Home Page](Images/Home.png)
+![Home Page](./Images/Home.png)
 
 ---
 
