@@ -25,7 +25,6 @@ The chatbot uses a **LangGraph workflow** connecting:
 - A **Store Node** → Saves threads and responses to PostgreSQL  
 - **Frontend (Next.js)** + **Backend (FastAPI)** → Seamless chat interface
 
-![Graph Flow](Images/Graph-Flow.png)
 
 ---
 
@@ -35,34 +34,6 @@ The chatbot uses a **LangGraph workflow** connecting:
 A simple and elegant landing page to begin chatting.
 
 ![Home Page](Images/Home.png)
-
----
-
-### 🔐 Login Page
-Secure access and user management.
-
-![Login](Images/Login.png)
-
----
-
-### 🔗 Add YouTube URL
-Paste any YouTube video link to load and process content.
-
-![Add URL](Images/Add-URL.png)
-
----
-
-### 💬 Chat Interface
-Interactive chatbot with message streaming and context awareness.
-
-![Chat Interface](Images/Chat-Interface.png)
-
----
-
-### 🕓 Chat History
-View previous chat sessions and revisit past insights.
-
-![Chat History](Images/Chat-History.png)
 
 ---
 
@@ -79,8 +50,8 @@ D:.
 ├───Images
 └───downloaded_audio
 
-
-## ⚙️ Setup Instructions
+```
+## Setup Instruction
 ### 1. Clone the Repository
 
 ```bash
