@@ -1,0 +1,33 @@
+# Core Python Utilities
+python-dotenv>=1.0.1
+pydantic>=2.8.2
+typing-extensions>=4.12.2
+
+# LangChain + LangGraph Ecosystem
+langchain>=0.3.2
+langchain-core>=0.3.6
+langgraph>=0.1.9
+langchain-google-genai>=1.0.5
+
+# PostgreSQL Integration
+psycopg[binary,pool]>=3.2.1
+
+# YouTube Data & Audio Processing
+yt-dlp>=2025.1.1
+youtube-transcript-api>=0.6.2
+
+# Audio / Transcription Helpers (if used in utils)
+pydub>=0.25.1
+openai-whisper>=20231117  # optional, if Whisper used for transcription
+
+# Backend Framework
+fastapi>=0.115.0
+uvicorn>=0.31.0
+
+# Environment & File Handling
+os-sys>=2.1.4  # safe placeholder for environment/os utils
+regex>=2024.9.11
+
+# Optional Utilities
+prettytable>=3.11.0
+tqdm>=4.66.5
