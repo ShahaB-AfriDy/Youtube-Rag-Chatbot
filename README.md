@@ -41,9 +41,6 @@ D:.
 ├───Images
 └───downloaded_audio
 
-````
-
-````
 
 ## ⚙️ Setup Instructions
 ### 1. Clone the Repository
