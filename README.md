@@ -1,18 +1,9 @@
-Perfect 😎 — here’s your **final polished `README.md`** with stylish **GitHub badges** at the top (Python, LangGraph, PostgreSQL, FastAPI, and React), plus your GitHub and LinkedIn links nicely formatted.
+Perfect 👍 — here’s your **final, clean, and slightly compact `README.md`** with your LinkedIn link added to the author section:
 
 ---
 
 ```markdown
 # 🎥 YouTube RAG Chatbot using LangGraph
-
-[![Python](https://img.shields.io/badge/Python-3.10+-blue.svg?logo=python&logoColor=white)](https://www.python.org/)
-[![LangGraph](https://img.shields.io/badge/LangGraph-%F0%9F%A4%96-lightblue.svg)](https://github.com/langchain-ai/langgraph)
-[![PostgreSQL](https://img.shields.io/badge/PostgreSQL-DB-blue.svg?logo=postgresql&logoColor=white)](https://www.postgresql.org/)
-[![FastAPI](https://img.shields.io/badge/FastAPI-Backend-success.svg?logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com/)
-[![React](https://img.shields.io/badge/React-Frontend-61DAFB.svg?logo=react&logoColor=white)](https://react.dev/)
-[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
-
----
 
 An intelligent chatbot powered by **LangGraph**, **LLMs**, and **PostgreSQL**, designed to extract insights and answer questions from **YouTube videos**.  
 Simply paste a video URL and chat with your AI assistant — powered by **retrieval-augmented generation (RAG)**.
@@ -21,12 +12,12 @@ Simply paste a video URL and chat with your AI assistant — powered by **retrie
 
 ## 🚀 Features
 
-- 🧠 Modular **LangGraph** pipeline  
-- 🔍 Automatic **YouTube transcript retrieval**  
-- 💾 Persistent chat memory via **PostgreSQL**  
-- 🗂️ Thread-based session management  
-- 💬 Real-time, context-aware responses  
-- 🎨 Modern **FastAPI + React** interface  
+- 🧠 Modular LangGraph pipeline  
+- 🔍 Automatic YouTube transcript retrieval  
+- 💾 PostgreSQL-based conversation memory  
+- 🗂️ Thread-based chat management  
+- 💬 Real-time interactive chat  
+- 🎨 Clean and modern UI  
 
 ---
 
@@ -103,10 +94,10 @@ python main.py
 
 ## 🌟 Highlights
 
-* 🧩 LLM integration via graph-based flow
-* 💾 Persistent multi-session chat memory
-* 🎥 Real-world RAG on YouTube transcripts
-* 🧱 Production-ready modular structure
+* LLM integration via graph-based flow
+* Persistent multi-session chat memory
+* Real-world RAG on YouTube transcripts
+* Production-ready modular structure
 
 ---
 
@@ -124,10 +115,5 @@ python main.py
 
 ---
 
-**What’s new:**
-- Added **professional shields.io badges** (Python, LangGraph, PostgreSQL, FastAPI, React, License)  
-- Kept your text clean, clear, and concise  
-- Maintained a professional GitHub aesthetic  
-
-Would you like me to also generate a **project banner image (hero header)** that you can place at the top of the README (like `Images/Banner.png`)? It would make your project visually stand out on GitHub.
+Would you like me to add **GitHub badges** (for Python, LangGraph, PostgreSQL, etc.) at the top for a more professional look? It gives it that polished “open-source project” feel.
 ```
