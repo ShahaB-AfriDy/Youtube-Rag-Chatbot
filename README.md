@@ -1,11 +1,14 @@
-# 🎥 YouTube RAG Chatbot using LangGraph
+# 🎥 YouTube RAG Chatbot with LangGraph
 
-An intelligent chatbot powered by **LangGraph**, **LLMs**, and **PostgreSQL**, designed to extract insights and answer questions from **YouTube videos**.  
-Simply paste a video URL, and chat with your AI assistant — powered by **retrieval-augmented generation (RAG)**.
+An advanced **Retrieval-Augmented Generation (RAG)** chatbot built using **LangGraph**, **FastAPI**, and **PostgreSQL**.  
+This application enables users to extract meaningful insights and engage in intelligent conversations based on the content of **YouTube videos**.  
+
+Simply provide a YouTube video URL — the system retrieves, processes, and analyzes its transcript, allowing seamless interaction through a natural language interface powered by **Large Language Models (LLMs)**.
+
 
 ---
 
-## 🚀 Features
+##  Features
 
 - 🧠 **LangGraph-powered pipeline** for modular chat workflows  
 - 🔍 **Automatic YouTube transcript retrieval**  
@@ -17,7 +20,7 @@ Simply paste a video URL, and chat with your AI assistant — powered by **retri
 
 ---
 
-## 🧩 Architecture Overview
+##  Architecture Overview
 
 The chatbot uses a **LangGraph workflow** connecting:
 - A **Retriever Node** → Fetches transcripts from YouTube  
@@ -30,7 +33,7 @@ The chatbot uses a **LangGraph workflow** connecting:
 
 ## 🖥️ Application Preview
 
-### 🏠 Home Page
+###  Home Page
 A simple and elegant landing page to begin chatting.
 
 ![Home Page](Images/Home.png)
@@ -39,14 +42,14 @@ A simple and elegant landing page to begin chatting.
 
 ## 🧱 Folder Structure
 
-
 ```
-D:.
+YouTube-Rag-Bot:.
 ├───backend
 │   ├───pipelines
 │   ├───Testing
 │   └───utils
 ├───frontend
+├───API
 ├───Images
 └───downloaded_audio
 
