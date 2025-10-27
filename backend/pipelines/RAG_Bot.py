@@ -158,6 +158,7 @@ def Retrieval_Node(state: RAGState, store: BaseStore, config: RunnableConfig):
 
     query = state.messages[-1].content
     result = store.search(namespace, query=query, limit=3)
+    # print([r.value['text'] for r in result])
     # Wrap text chunks in Document objects
     retrieved = [
         Document(page_content=r.value["text"], metadata={"url": state.youtube_link}) for r in result] if result else []
@@ -239,7 +240,8 @@ if __name__ == "__main__":
     # URL = "https://www.youtube.com/shorts/je4Q1vBCpok"
     # URL = "https://www.youtube.com/shorts/XJ1yWRwZ6JQ"
     # URL = "https://www.youtube.com/shorts/RECOMngbA6Y"
-    URL = "https://www.youtube.com/shorts/fiPPR5ZzUO4"
+    # URL = "https://www.youtube.com/shorts/fiPPR5ZzUO4"
+    URL = "hhttps://www.youtube.com/shorts/t1tJMlmUwNs"
     
     state = RAGState(
         messages=[HumanMessage(content="which gpt model he is talking in the video?")],
