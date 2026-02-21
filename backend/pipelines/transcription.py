@@ -53,5 +53,5 @@ def transcribe_audio(audio_path: str) -> str:
 
 
 if __name__ == "__main__":
-    test_file = r"downloaded_audio\A.I. Teaches Programming.mp3"
+    test_file = r"C:\Users\PMLS\Downloads\Files Downloading for scrape\Downloading Excel files\Comments Scrape\WhatsApp Video 2025-11-17 at 15.41.54_becd1217.mp3"
     print("Transcript:\n", transcribe_audio(test_file))
